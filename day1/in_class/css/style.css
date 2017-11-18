@@ -1,0 +1,49 @@
+
+
+header {
+	height: 200px;
+	border: 10px solid rgb(0, 255, 0);
+	border-top: 10px dashed  purple;
+	border-bottom: 10px dashed green;
+	background-color: rgba(112, 32, 32, .2)
+	background-image: url('https://www.infoniac.ru/upload/iblock/1e3/1e33ca43314f3b3205a69debb3361cbd.jpg');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+}
+
+section {
+	min-height: 1000px;
+}
+.mainFooter {
+	height: 100px;
+	background: green;
+}
+#dom {
+	width: 800px;
+}
+.hero .contentZone  ul li {
+	color: red;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	font-style: normal;
+}
+
+ a {
+ 	text-decoration: none;
+ 	color: #000080;
+ }
+
+ p {
+ 	width: 300px;
+ 	line-height: 50px;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ }

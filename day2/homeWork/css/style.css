@@ -1,0 +1,38 @@
+.popup {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 600px;
+	background-color: rgba(0, 150, 150, 0.5);
+}
+
+.button {
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	width: 100px;
+	height: 50px;
+}
+
+.popup_item {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	/*margin: auto;*/    /*В случае если в .popup нет dispFlex и выравнивания*/
+	display: none;
+	background-color: red;
+}
+
+.popup_button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	background-image: url('../img/cross.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}

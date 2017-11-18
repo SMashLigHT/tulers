@@ -1,0 +1,51 @@
+body {
+	font-family: Lighthaus;
+	font: Helvetica Arial sans-serif 20px;
+	background-color: #eeeeed;
+}
+
+a {
+	color: #353535;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background-color: red;
+}
+
+.logo {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding-left: 50px;
+}
+
+header nav {
+	float: left;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+main {
+	min-height: 500px;
+	background-color: blue;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	height: 50px;
+	background-color: yellow;
+}

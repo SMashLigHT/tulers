@@ -1,0 +1,35 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: grey;
+}
+
+header {
+	height: 200px;
+	background-color: navy;
+	color: white;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-style: 30px;
+}
+
+main {
+	min-height: 300px;
+}
+
+footer {
+	height: 200px;
+	background-color: navy;
+	color: white;
+	text-align: center;
+}

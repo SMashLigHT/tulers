@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+		.outer {
+			position: relative;
+			height: 500px;
+			border: 2px solid orange;
+		}
+		.inner {
+			width: 50px;
+			height: 50px;
+		}
+		.static .inner{
+			background-color: red;
+			position: static;
+			margin-top: 15px;
+		}
+		.relative .inner{
+			background-color: purple;
+			position: relative;
+			top: 20px;
+			left: 10px;
+		}
+		.absolute .inner{
+			background-color: green;
+			position: absolute;
+			bottom: 5px;
+			right: 5px;
+		}
+		.fixed .inner{
+			background-color: black;
+			position: fixed;
+			top: 10px;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="outer static">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, provident. Repellat cum optio nihil, enim! Corrupti illum necessitatibus maiores asperiores quibusdam totam officiis repellendus explicabo, laboriosam, distinctio iste a enim.</p>
+	</div>
+	<div class="outer relative">
+		<div class="inner"></div>
+		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eos labore, fuga dolores! Odit nisi ipsum autem at alias, quas vero eos necessitatibus! Iure quod ullam quidem rerum deleniti numquam.</P>
+	</div>
+	<div class="outer absolute">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quod itaque fuga eveniet cumque omnis illo vero dolore recusandae nam pariatur nobis similique, suscipit ipsam eum delectus nulla voluptates totam.</p>
+	</div>
+	<div class="outer fixed">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nesciunt voluptatibus nulla, temporibus neque consequuntur impedit atque. Praesentium, saepe. Consequatur id impedit hic, aut ipsam autem dignissimos doloribus iusto quae!</p>
+	</div>
+</body>
+</html>
