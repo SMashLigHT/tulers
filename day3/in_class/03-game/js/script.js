@@ -71,10 +71,12 @@ window.addEventListener('load', function() {
 		let pleer = document.querySelector('#pleerSchet')    // создали переменную которая выбирает #pleerSchet
 		// let comp = document.querySelector('#compSchet')
 		let pleerSchet = document.getElementById('#pleerSchet') // создали переменную которая берет содержимое элемента #pleerSchet
+		let score = 0
 
 
 		if (currentPlayerImage === princessUrl && currentComputerImage === samuraiUrl) {
-			pleer.innerHTML = pleerSchet + 3    // записать в #pleerSchet текущее значение в #pleerSchet и прибавляет единицу
+			score = score + 1
+			pleer.innerHTML = pleerSchet + score    // записать в #pleerSchet текущее значение в #pleerSchet и прибавляет единицу
 		}
 
 	})
