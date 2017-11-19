@@ -123,6 +123,17 @@ section, div, header {
   display: flex;
 }
 
+.schet {
+  display: flex;
+}
+
+.schet p {
+  width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid black;
+}
+
 .result p {
   width: 900px;
   margin: 20px auto;
