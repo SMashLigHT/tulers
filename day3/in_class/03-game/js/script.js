@@ -76,7 +76,7 @@ window.addEventListener('load', function() {
 
 		if (currentPlayerImage === princessUrl && currentComputerImage === samuraiUrl) {
 			score = score + 1
-			pleer.innerHTML = pleerSchet + score    // записать в #pleerSchet текущее значение в #pleerSchet и прибавляет единицу
+			pleer.innerHTML = score    // записать в #pleerSchet текущее значение в #pleerSchet и прибавляет единицу
 		}
 
 	})
